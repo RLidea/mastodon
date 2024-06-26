@@ -7,11 +7,11 @@ ready(() => {
   if (!image) return;
 
   image.addEventListener('mouseenter', () => {
-    image.src = '/gyudon.png';
+    image.src = '/oops.png';
   });
 
   image.addEventListener('mouseleave', () => {
-    image.src = '/spilled_gyudon.png';
+    image.src = '/oops.gif';
   });
 }).catch((e: unknown) => {
   console.error(e);

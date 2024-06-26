@@ -6,7 +6,7 @@ index dfca274059..ea17e76929 100644
    end
 
    def avatar_original_url
--    avatar_file_name.nil? && domain.nil? ? '/avatars/original/missing_qdon.png' : avatar.url(:original)
+-    avatar_file_name.nil? && domain.nil? ? '/avatars/original/missing.png' : avatar.url(:original)
 +    avatar.url(:original)
    end
 
@@ -37,7 +37,7 @@ index e009dd3cfc..0000000000
 -    if object.file?
 -      full_asset_url(object.url(:original))
 -    else
--      full_asset_url('/avatars/original/missing_qdon.png')
+-      full_asset_url('/avatars/original/missing.png')
 -    end
 -  end
 -end
